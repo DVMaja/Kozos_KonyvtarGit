@@ -1,7 +1,4 @@
 # Könyv kölcsönző program
-## Készítők:
-- Családi ALexandra
-- Dreilinger Maja
 
 ## Feladat leírás
 Ez egy köny kölcsönző program.
