@@ -11,3 +11,4 @@ Több féle dolgot lehet kölcsönözni Pl.: könyv, CD, DVD,
 | Családi Alexandra | Program alapjának megírása |
 | Dreilinger Maja | Git repo létrehozása |
 | Dreilinger Maja | Readme formázása |
+| Családi Alexandra, Dreilinger Maja | Jobb feladatleírás szerdáig. |
