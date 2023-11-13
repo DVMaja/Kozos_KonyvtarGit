@@ -3,9 +3,9 @@
 - Családi ALexandra
 - Dreilinger Maja
 
-  ## Feladat leírás
-   Ez egy köny kölcsönző program.
-  Több féle dolgot lehet kölcsönözni Pl.: könyv, CD, DVD,
+## Feladat leírás
+Ez egy köny kölcsönző program.
+Több féle dolgot lehet kölcsönözni Pl.: könyv, CD, DVD,
 
   ## Feladatok felosztása
   
