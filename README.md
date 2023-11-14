@@ -2,7 +2,10 @@
 
 ## Feladat leírás
 Ez egy köny kölcsönző program.
-Több féle dolgot lehet kölcsönözni Pl.: könyv, CD, DVD,
+Egy könyvtár médianyagokat (könyveket, cdket és dvd-ket) ad ki. Ha kiad(kölcsönzik tőle) egy médiaanyagot, akkor az állapota romlik(karcolódhat, eltörhet, gyűrődhet).
+A médiaanyagokat sorszámmal azonosítjuk, ez alapján ki lehet adni.
+Technikai specifikáció
+Egy ember egyszerre több könyvet kivehet! A könyvek száma maximum 5 db lehet, de eltérőt is megadhadtunk.
 
   ## Feladatok felosztása
   
