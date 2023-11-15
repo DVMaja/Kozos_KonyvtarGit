@@ -5,8 +5,8 @@ public class KonyvtarProgram {
     public static void main(String[] args) {
         new KonyvtarProgram();
     }
-    
-    public KonyvtarProgram(){
+
+    public KonyvtarProgram() {
         //ide kerülnek a feladatok
     }
 }

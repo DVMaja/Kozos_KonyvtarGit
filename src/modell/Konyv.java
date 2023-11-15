@@ -1,6 +1,7 @@
 package modell;
 
 public class Konyv {
+
     private String kolcsonzoNeve;
     private boolean kolcsonozve;
 
@@ -8,11 +9,11 @@ public class Konyv {
         this.kolcsonzoNeve = kolcsonzoNeve;
         kolcsonozve = false;
     }
-    
+
     public boolean kiKolcsonozve() {
         return kolcsonozve;
     }
-    
+
     public void kiKolcsonozve(boolean kolcsonozve) {
         this.kolcsonozve = kolcsonozve;
     }
@@ -21,8 +22,5 @@ public class Konyv {
     public String toString() {
         return "Konyv{" + "kolcsonzoNeve=" + kolcsonzoNeve + ", kolcsonozve=" + kolcsonozve + '}';
     }
-    
-    
-    
-    
+
 }
