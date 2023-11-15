@@ -17,6 +17,7 @@ public class Mediaanyag {
         mediaanyag = new Mediaanyag[mediaDb];
     }
     
+    //Át a könyvtárba
     public void kolcsonoz(Mediaanyag media){
         if (mediaDb < mediaanyag.length) {
             mediaanyag[mediaDb++] = media;
