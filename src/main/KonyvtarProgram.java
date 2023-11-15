@@ -3,7 +3,10 @@ package main;
 public class KonyvtarProgram {
 
     public static void main(String[] args) {
-        // TODO code application logic here
+        new KonyvtarProgram();
     }
     
+    public KonyvtarProgram(){
+        //ide kerülnek a feladatok
+    }
 }
