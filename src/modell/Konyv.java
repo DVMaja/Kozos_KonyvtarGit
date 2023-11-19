@@ -4,7 +4,7 @@ package modell;
  *
  * @author csaladi.alexandra
  */
-public class Konyv {
+public class Konyv extends Mediaanyag{
     private String kolcsNeve;
     private boolean kolcsonozve;
 
