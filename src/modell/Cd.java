@@ -4,6 +4,6 @@ package modell;
  *
  * @author csaladi.alexandra
  */
-public class Cd {
+public class Cd extends Mediaanyag{
     
 }

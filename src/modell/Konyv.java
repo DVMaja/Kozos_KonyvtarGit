@@ -1,36 +1,29 @@
 package modell;
 
+import java.util.Random;
+
 /**
  *
  * @author csaladi.alexandra
  */
 public class Konyv extends Mediaanyag{
-    private String kolcsNeve;
-    private boolean kolcsonozve;
+    private int gyurodes;
+    private boolean szakadas;
 
-    public Konyv(String kolcsNeve) {
-        this.kolcsNeve = kolcsNeve;
-        kolcsonozve = false;
-    }
-
-    public String getKolcsNeve() {
-        return kolcsNeve;
-    }
-
-    public void setKolcsNeve(String kolcsNeve) {
-        this.kolcsNeve = kolcsNeve;
-    }
-
-    public boolean isKolcsonozve() {
-        return kolcsonozve;
-    }
-
-    public void setKolcsonozve(boolean kolcsonozve) {
-        this.kolcsonozve = kolcsonozve;
+    public Konyv(String kolcsNeve, boolean kolcsonozve) {
+        super(kolcsNeve, kolcsonozve);
+        gyurodes = 0;
+        szakadas = false;
     }
 
     @Override
-    public String toString() {
-        return "Konyv{" + "kolcsNeve=" + kolcsNeve + ", kolcsonozve=" + kolcsonozve + '}';
+    public void altalanosHasznalatHatasa() {
+        gyurodes *= .98;
+    }
+
+    @Override
+    public void NemVartEsemeny() {
+        Random rnd = new Random();
+        szakadas = rnd.nextBoolean();
     }
 }
