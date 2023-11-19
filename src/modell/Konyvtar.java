@@ -24,8 +24,8 @@ public class Konyvtar {
     
     //használat
     
-    public String[] getKonyv(){
-        String[] mediak = new String[this.mediaanyag.length];
+    public Mediaanyag[] getMedia(){
+        Mediaanyag[] mediak = new Mediaanyag[this.mediaanyag.length];
         return mediak;
     }
 }
