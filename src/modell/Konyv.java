@@ -8,12 +8,12 @@ import java.util.Random;
  */
 public class Konyv extends Mediaanyag{
     private int gyurodes;
-    private boolean szakadas;
+    private boolean szakadt;
 
     public Konyv(String kolcsNeve, boolean kolcsonozve) {
         super(kolcsNeve, kolcsonozve);
         gyurodes = 0;
-        szakadas = false;
+        szakadt = false;
     }
 
     @Override
@@ -24,6 +24,6 @@ public class Konyv extends Mediaanyag{
     @Override
     public void NemVartEsemeny() {
         Random rnd = new Random();
-        szakadas = rnd.nextBoolean();
+        szakadt = rnd.nextBoolean();
     }
 }
