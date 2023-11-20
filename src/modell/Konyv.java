@@ -1,14 +1,18 @@
 package modell;
 
-public class Konyv {
+public class Konyv extends Mediaanyag{
 
-    private String kolcsonzoNeve;
-    private boolean kolcsonozve;
+    private double allapot;
 
-    public Konyv(String kolcsonzoNeve) {
-        this.kolcsonzoNeve = kolcsonzoNeve;
-        kolcsonozve = false;
+    public Konyv(String tulNev) {
+        super(tulNev);
+        allapot = 100; //mindig 0.5% romlik
     }
+
+//    public Konyv(String kolcsonzoNeve) {
+//        this.kolcsonzoNeve = kolcsonzoNeve;
+//        kolcsonozve = false;
+//    }
 
     public boolean kiKolcsonozve() {
         return kolcsonozve;
@@ -21,6 +25,11 @@ public class Konyv {
     @Override
     public String toString() {
         return "Konyv{" + "kolcsonzoNeve=" + kolcsonzoNeve + ", kolcsonozve=" + kolcsonozve + '}';
+    }
+
+    @Override
+    public void hasznalat() {
+        allapot *= .950;
     }
 
 }

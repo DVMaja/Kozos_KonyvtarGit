@@ -20,6 +20,7 @@ public class Konyvtar {
         } else {
             System.out.println("Nem lehet több könyvet kölcsönözni!");
         }
+        
     }
 
     public void hasznalat() {
