@@ -13,5 +13,9 @@ public class Cd extends Mediaanyag{
     public void hasznalat() {
         karSzazalek *= .05;
     }
+
+    @Override
+    public void tonkrement() {
+    }
     
 }

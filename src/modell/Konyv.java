@@ -4,8 +4,8 @@ public class Konyv extends Mediaanyag{
 
     private double allapot;
 
-    public Konyv(String tulNev) {
-        super(tulNev);
+    public Konyv(String kolcsonzoNeve) {
+        super(kolcsonzoNeve);
         allapot = 100; //mindig 0.5% romlik
     }
 
@@ -13,23 +13,29 @@ public class Konyv extends Mediaanyag{
 //        this.kolcsonzoNeve = kolcsonzoNeve;
 //        kolcsonozve = false;
 //    }
-
-    public boolean kiKolcsonozve() {
-        return kolcsonozve;
-    }
-
-    public void kiKolcsonozve(boolean kolcsonozve) {
-        this.kolcsonozve = kolcsonozve;
-    }
+//
+//    public boolean kiKolcsonozve() {
+//        return kolcsonozve;
+//    }
+//
+//    public void kiKolcsonozve(boolean kolcsonozve) {
+//        this.kolcsonozve = kolcsonozve;
+//    }
 
     @Override
     public String toString() {
-        return "Konyv{" + "kolcsonzoNeve=" + kolcsonzoNeve + ", kolcsonozve=" + kolcsonozve + '}';
+        String kimenoSz = super.toString();
+        return kimenoSz + System.lineSeparator() + "\t"
+                + "Könyv{" + "használtság=" + allapot + '}';
     }
 
     @Override
     public void hasznalat() {
         allapot *= .950;
+    }
+
+    @Override
+    public void tonkrement() {
     }
 
 }

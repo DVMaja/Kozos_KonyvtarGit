@@ -1,8 +1,10 @@
 package modell;
 
 public abstract class Mediaanyag {
+
     private String kolcsonzoNeve;
     private boolean kiadva;
+    private boolean tonkrement;
 
     public Mediaanyag(String tulNev) {
         this.kolcsonzoNeve = tulNev;
@@ -25,12 +27,12 @@ public abstract class Mediaanyag {
         this.kiadva = kiadva;
     }
 
-    @Override
     public String toString() {
-        return "Ruha{" + "kolcsonzoNeve=" + kolcsonzoNeve + ", kiadva=" + kiadva + '}';
+        return "Mediaanyag{" + "kolcsonzoNeve=" + kolcsonzoNeve + ", kiadva=" + kiadva + '}';
     }
-    
+
     public abstract void hasznalat();
-    
+
+    public abstract void tonkrement();
 
 }
