@@ -8,7 +8,7 @@ public abstract class Mediaanyag {
     private String kolcsNeve;
     private boolean kolcsonozve;
 
-    public Mediaanyag(String kolcsNeve, boolean kolcsonozve) {
+    public Mediaanyag(String kolcsNeve) {
         this.kolcsNeve = kolcsNeve;
         kolcsonozve = false;
     }

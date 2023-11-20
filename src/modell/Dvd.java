@@ -10,12 +10,12 @@ public class Dvd extends Mediaanyag{
     private int karcolodas;
     private boolean eltort;
 
-    public Dvd(String kolcsNeve, boolean kolcsonozve) {
-        super(kolcsNeve, kolcsonozve);
+    public Dvd(String kolcsNeve) {
+        super(kolcsNeve);
         karcolodas = 0;
         eltort = false;
     }
-
+    
     @Override
     public void altalanosHasznalatHatasa() {
         karcolodas *= .87;

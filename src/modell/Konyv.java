@@ -10,12 +10,12 @@ public class Konyv extends Mediaanyag{
     private int gyurodes;
     private boolean szakadt;
 
-    public Konyv(String kolcsNeve, boolean kolcsonozve) {
-        super(kolcsNeve, kolcsonozve);
+    public Konyv(String kolcsNeve) {
+        super(kolcsNeve);
         gyurodes = 0;
         szakadt = false;
     }
-
+    
     @Override
     public void altalanosHasznalatHatasa() {
         gyurodes *= .98;

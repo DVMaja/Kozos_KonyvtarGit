@@ -13,17 +13,12 @@ public class KonyvtarProgram {
     }
 
     public KonyvtarProgram() {
-        konyvtar = new Konyvtar(5);
-        konyvtar.kolcsonoz(new Konyv("Zsuzsa", true));
-
+        konyvtar = new Konyvtar(2);
+        konyvtar.kolcsonoz(new Konyv("Zsuzsa"));
+        konyvtar.kolcsonoz(new Konyv("Peti"));
+        
         System.out.println("--- könyvtár könyvei kölcsönzés előtt:");
         konyvtarKonyvei();
-        
-        //Peti csak két könyvet visz el, még 3-at kikölcsönözhet
-        konyvtar = new Konyvtar(2);
-        konyvtar.kolcsonoz(new Konyv("Peti", true));
-
-        
         
     }
 

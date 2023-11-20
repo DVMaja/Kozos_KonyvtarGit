@@ -6,7 +6,7 @@ public class Konyvtar {
     private int mediaDb;
 
     public Konyvtar() {
-        this(5);
+        this(50);
     }
 
     public Konyvtar(int mediaDb) {

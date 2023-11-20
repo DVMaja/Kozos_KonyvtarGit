@@ -10,12 +10,12 @@ public class Cd extends Mediaanyag{
     private int karcolodas;
     private boolean eltort;
 
-    public Cd(String kolcsNeve, boolean kolcsonozve) {
-        super(kolcsNeve, kolcsonozve);
+    public Cd(String kolcsNeve) {
+        super(kolcsNeve);
         karcolodas = 0;
         eltort = false;
     }
-
+    
     @Override
     public void altalanosHasznalatHatasa() {
         karcolodas *= .98;
